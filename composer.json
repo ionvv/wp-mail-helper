@@ -1,0 +1,26 @@
+{
+    "name": "ionvv/wp-mail-helper",
+    "description": "PHP package to send custom emails with WordPress.",
+    "version": "1.0.0",
+    "keywords": [
+        "WordPress",
+        "WordPress email",
+        "WordPress email template",
+        "WordPress custom email"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ion Vrinceanu",
+            "homepage": "https://vrinceanu.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WpMailHelper\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+}
